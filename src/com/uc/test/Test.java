@@ -8,7 +8,7 @@ public class Test {
 		String str="sahdwiuahlidwÉµ±ÆÈÕÄáÂê²ÙÄãÂè";
 		FilteredResult fr = WordFilterUtil.filterHtml(str,'*');
 		fr.setLevel(1);
-	
+	System.out.println();
 		String str1=fr.getBadWords();
 		String str2=fr.getOriginalContent();
 		int str3=fr.getLevel();

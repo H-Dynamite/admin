@@ -4,6 +4,7 @@ public class UIYIY {
 
 	public static void main(String[] args) {
 		System.out.println("ÎÒÊÇË­µÄË­");
+		
 	}
 
 }
